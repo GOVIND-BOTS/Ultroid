@@ -267,8 +267,8 @@ class RedisDB(_BaseDatabase):
             import sys
 
             sys.exit()
-        kwargs["redis-13549.c302.asia-northeast1-1.gce.cloud.redislabs.com"] = host
-        kwargs["RCr5uV8kB11l1swHqGLgJcd7Eqxk83Qy"] = password
+        kwargs[""] = host
+        kwargs[""] = password
         kwargs["port"] = port
 
         if platform.lower() == "qovery" and not host:
